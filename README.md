@@ -12,7 +12,7 @@ Built on affordable hardware like the Raspberry Pi and common sensors, Autoport 
 
 # File Structure
 # Getting Started
-## Prerequisites
+## 1.Prerequisites
 - Hardware
   - Raspberry Pi 4/5 (recommended) or Jetson Nano
   - LIDAR (e.g., RPLidar A1/A2, LDS08 Lidar, Hokuyo)
@@ -21,7 +21,22 @@ Built on affordable hardware like the Raspberry Pi and common sensors, Autoport 
   - Differential drive base
 
 - Software
-  - Ubuntu 22.04 (or supported ROS 2 distro)
+  - Ubuntu 22.04 or 24.04 (or supported ROS 2 distro)    
   - ROS 2 Humble / Jazzy
+      You can visit the official [ROS Site](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html) to install ROS.
   - slam_toolbox or cartographer
+      '''
+    ### Update apt and install slam_toolbox
+sudo apt update
+sudo apt install ros-<ROS_DISTRO>-slam-toolbox
+
+### Source the ROS environment
+source /opt/ros/<ROS_DISTRO>/setup.bash
+
+### (Optional) Verify package executables
+ros2 pkg executables slam_toolbox
+'''
   - ros2_control + nav2
+ 
+
+
