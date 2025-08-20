@@ -61,6 +61,16 @@ Built on affordable hardware like the Raspberry Pi and common sensors, Autoport 
 
     
     ```
+
+# Contributors
+- [Kushaan Gada](https://github.com/f0rgotteng0d)
+- [Hrishi Pandey](https://github.com/Hrishi010905)
+- [Rayon Biswas](https://github.com/RayonBiswas)
+
+# Acknowledgements and Resources 
+- [SRA VJTI](https://sravjti.in/) Eklavya 2025
+- Github Repositories we refered to [JoshNewans](https://github.com/joshnewans/articubot_one)
+- [Articulated Robotics](https://articulatedrobotics.xyz/)
  
 
 
