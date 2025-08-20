@@ -1,27 +1,27 @@
 # Autoport -  A SLAM Bot
 SLAM-enabled autonomous robot that builds real-time maps and localizes itself for navigation in unknown environments.
 
-#About the Project 
+# About the Project 
 Autoport is a ROS 2-powered mobile robot designed for autonomous exploration, mapping, and navigation using Simultaneous Localization and Mapping (SLAM).
 Built on affordable hardware like the Raspberry Pi and common sensors, Autoport serves as a platform for robotics research, education, and prototyping.
 
-#Tech Stack
+# Tech Stack
 - [ROS2](https://docs.ros.org/en/rolling/index.html)
 - [SLAM](https://www.mathworks.com/discovery/slam.html)
 - [Raspberry Pi 4/5](https://www.raspberrypi.com/) or similar
 
-#File Structure
-#Getting Started
-##Prerequisites
--Hardware
-  -Raspberry Pi 4/5 (recommended) or Jetson Nano
-  -LIDAR (e.g., RPLidar A1/A2, LDS08 Lidar, Hokuyo)
-  -IMU (ISM330DHCX / MPU6050 / BNO055 / etc.)
-  -Motor driver (L298N / TB6612FNG / ODrive)
-  -Differential drive base
+# File Structure
+# Getting Started
+## Prerequisites
+- Hardware
+  - Raspberry Pi 4/5 (recommended) or Jetson Nano
+  - LIDAR (e.g., RPLidar A1/A2, LDS08 Lidar, Hokuyo)
+  - IMU (ISM330DHCX / MPU6050 / BNO055 / etc.)
+  - Motor driver (L298N / TB6612FNG / ODrive)
+  - Differential drive base
 
--Software
-  -Ubuntu 22.04 (or supported ROS 2 distro)
-  -ROS 2 Humble / Jazzy
-  -slam_toolbox or cartographer
-  -ros2_control + nav2
+- Software
+  - Ubuntu 22.04 (or supported ROS 2 distro)
+  - ROS 2 Humble / Jazzy
+  - slam_toolbox or cartographer
+  - ros2_control + nav2
